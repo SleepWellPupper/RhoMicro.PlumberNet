@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/PaulBraetz/RhoMicro.PlumberNet/release/ReadmeLogo.svg)
+![Logo](https://raw.githubusercontent.com/PaulBraetz/RhoMicro.PlumberNet/master/Logo.svg)
 
 # PlumberNet
 
