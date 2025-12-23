@@ -28,7 +28,7 @@ PackageReference:
 
 ```xml
 <PropertyGroup>
-    <PackageReference Include="RhoMicro.PlumberNet" Version="1.0.0"/>
+    <PackageReference Include="RhoMicro.PlumberNet" Version="1.0.3"/>
 </PropertyGroup>
 ```
 
