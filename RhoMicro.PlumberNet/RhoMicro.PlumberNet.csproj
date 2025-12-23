@@ -7,12 +7,27 @@
     <!--    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>-->
   </PropertyGroup>
 
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>
+      This is a library allowing for functional, allocation free, highly efficient pipe operator use in C#.
+    </Description>
+    <PackageTags>Functional Programming; FSharp; F#; Pipe; Pipes</PackageTags>
+    <PackageIconUrl>https://raw.githubusercontent.com/PaulBraetz/RhoMicro.PlumberNet/master/PackageLogo.svg</PackageIconUrl>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="PolySharp" Version="1.15.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <ProjectReference Include="..\RhoMicro.PlumberNet.Generator\RhoMicro.PlumberNet.Generator.csproj" OutputItemType="analyzer" ReferenceOutputAssembly="false"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../Logo.svg" Pack="true" PackagePath=""/>
+    <None Include="../README.md" Pack="true" PackagePath="/" CopyToOutputDirectory="Always"/>
   </ItemGroup>
 
 </Project>

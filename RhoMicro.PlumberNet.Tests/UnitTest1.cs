@@ -12,19 +12,17 @@ public class UnitTest1
 {
     record User(String Name, String Password);
 
-    static Task<String> ReadUserNameInput() => Task.FromResult("Foo");
-
-    static String ReadUserPasswordInput() => "Password1";
+    static String ReadUserNameInput() => "Foo";
 
     [Fact]
     public async Task Test1()
     {
         var username = Pipe | ReadUserNameInput;
-        var password = Pipe | ReadUserPasswordInput;
-        User? user = Pipe |
-                     await username.Argument1 | password
+        var password = Pipe | "Password1";
+        User? user = Pipe
+                   | username | password
                    | IsValidPassword
-                   | await username.Argument1 | password
+                   | username | password
                    | GetUser
                    | Pipe;
 
@@ -34,14 +32,8 @@ public class UnitTest1
     }
 
     private User? GetUser(bool isValid, string username, string password)
-    {
-        return isValid
-            ? new User(username, password)
-            : null;
-    }
+        => isValid ? new User(username, password) : null;
 
-    private bool IsValidPassword(string username, string password)
-    {
-        return password is "Password1" && username is "Foo";
-    }
+    private bool IsValidPassword(string? username, string password)
+        => password is "Password1" && username is "Foo";
 }
