@@ -15,7 +15,7 @@
       This is a library allowing for functional, allocation free, highly efficient pipe operator use in C#.
     </Description>
     <PackageTags>Functional Programming; FSharp; F#; Pipe; Pipes</PackageTags>
-    <PackageIconUrl>https://raw.githubusercontent.com/PaulBraetz/RhoMicro.PlumberNet/master/Logo.svg</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/SleepWellPupper/RhoMicro.PlumberNet/refs/heads/master/Logo.svg</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
