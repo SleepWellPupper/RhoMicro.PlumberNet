@@ -27,7 +27,6 @@ Terminal:
 PackageReference:
 
 ```xml
-
 <PropertyGroup>
     <PackageReference Include="RhoMicro.PlumberNet" Version="1.0.0"/>
 </PropertyGroup>
@@ -76,7 +75,7 @@ Its value is the result of invoking `IsValidPassword` with the two arguments pre
 
 Exit the pipe (exfiltrate values from pipe arguments) by appending the `Pipe` value to the pipe:
 
-```cw
+```cs
 User? user = isValidPassword | username | password
            | GetUser
            | Pipe;
