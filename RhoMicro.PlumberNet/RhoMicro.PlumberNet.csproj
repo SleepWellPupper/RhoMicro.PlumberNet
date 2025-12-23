@@ -15,7 +15,7 @@
       This is a library allowing for functional, allocation free, highly efficient pipe operator use in C#.
     </Description>
     <PackageTags>Functional Programming; FSharp; F#; Pipe; Pipes</PackageTags>
-    <PackageIconUrl>https://raw.githubusercontent.com/SleepWellPupper/RhoMicro.PlumberNet/refs/heads/master/Logo.svg</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/SleepWellPupper/RhoMicro.PlumberNet/refs/heads/master/PackageLogo.svg</PackageIconUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <Authors>Paul Braetz</Authors>
@@ -34,7 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="../Logo.svg" Pack="true" PackagePath=""/>
+    <None Include="../PackageLogo.svg" Pack="true" PackagePath=""/>
     <None Include="../README.md" Pack="true" PackagePath="/" CopyToOutputDirectory="Always"/>
   </ItemGroup>
 

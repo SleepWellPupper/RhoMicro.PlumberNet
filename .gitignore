@@ -670,4 +670,7 @@ fabric.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/rider,dotnetcore,csharp,visualstudio
 
+.~lock.ReadmeLogo.odg#
+.~lock.PackageLogo.odg#
 .~lock.Logo.odg#
+

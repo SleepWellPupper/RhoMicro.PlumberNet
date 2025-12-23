@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/SleepWellPupper/RhoMicro.PlumberNet/refs/heads/master/Logo.svg)
+![Logo](https://raw.githubusercontent.com/SleepWellPupper/RhoMicro.PlumberNet/refs/heads/master/ReadmeLogo.svg)
 
 # PlumberNet
 
