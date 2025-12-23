@@ -16,6 +16,13 @@
     </Description>
     <PackageTags>Functional Programming; FSharp; F#; Pipe; Pipes</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/SleepWellPupper/RhoMicro.PlumberNet/refs/heads/master/Logo.svg</PackageIconUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
+    <Authors>Paul Braetz</Authors>
+    <Copyright>$([System.DateTime]::Now.ToString('yyyy'))</Copyright>
+    <Company>RhoMicro</Company>
+    <RepositoryUrl>https://github.com/SleepWellPupper/RhoMicro.PlumberNet</RepositoryUrl>
+    <ProjectUrl>$(RepositoryUrl)</ProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
