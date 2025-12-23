@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhoMicro.PlumberNet", "RhoMicro.PlumberNet\RhoMicro.PlumberNet.csproj", "{FF1CD49C-4E81-4A0F-AE84-C58D2F07AE06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhoMicro.PlumberNet.Tests", "RhoMicro.PlumberNet.Tests\RhoMicro.PlumberNet.Tests.csproj", "{FC8F5D57-D55B-4465-9613-0220A780EFE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhoMicro.PlumberNet.Generator", "RhoMicro.PlumberNet.Generator\RhoMicro.PlumberNet.Generator.csproj", "{217F0D4F-6DB1-4678-9FA2-C9BDFF0B9190}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF1CD49C-4E81-4A0F-AE84-C58D2F07AE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1CD49C-4E81-4A0F-AE84-C58D2F07AE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1CD49C-4E81-4A0F-AE84-C58D2F07AE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1CD49C-4E81-4A0F-AE84-C58D2F07AE06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8F5D57-D55B-4465-9613-0220A780EFE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8F5D57-D55B-4465-9613-0220A780EFE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8F5D57-D55B-4465-9613-0220A780EFE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8F5D57-D55B-4465-9613-0220A780EFE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217F0D4F-6DB1-4678-9FA2-C9BDFF0B9190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217F0D4F-6DB1-4678-9FA2-C9BDFF0B9190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217F0D4F-6DB1-4678-9FA2-C9BDFF0B9190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217F0D4F-6DB1-4678-9FA2-C9BDFF0B9190}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
